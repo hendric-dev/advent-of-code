@@ -1,1 +1,8 @@
+# IDE
 .vscode
+
+# Rust
+target
+
+# Typescript
+node_modules
