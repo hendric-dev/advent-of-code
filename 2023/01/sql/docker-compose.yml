@@ -1,0 +1,13 @@
+version: '3.1'
+
+services:
+  database:
+    image: postgres:16-alpine
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      - ./setup/01_table.sql:/docker-entrypoint-initdb.d/01_table.sql
+      - ./setup/02_data.sh:/docker-entrypoint-initdb.d/02_data.sh
+      - ./input.txt:/docker-entrypoint-initdb.d/input.txt
