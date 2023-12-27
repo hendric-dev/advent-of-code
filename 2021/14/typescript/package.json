@@ -1,0 +1,13 @@
+{
+  "name": "day13",
+  "version": "1.0.0",
+  "description": "Day 13 of Advent of Code",
+  "author": "Hendric Eckelt <hendric.eckelt@ottogroup.com>",
+  "scripts": {
+    "dev": "tsc --watch"
+  },
+  "devDependencies": {
+    "@types/node": "16.11.12",
+    "typescript": "4.5.3"
+  }
+}

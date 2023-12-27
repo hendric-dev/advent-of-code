@@ -1,0 +1,17 @@
+name:
+version: 0.1.0
+
+authors:
+  - Hendric Eckelt <hendric.eckelt@ottogroup.com>
+
+targets:
+  main:
+    main: main.cr
+
+description: |
+  Advent of Code 2021 Day 3
+
+dependencies:
+development_dependencies:
+
+license: MIT
