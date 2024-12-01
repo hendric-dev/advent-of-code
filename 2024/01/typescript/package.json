@@ -1,0 +1,12 @@
+{
+  "name": "2024-01",
+  "module": "src/main.ts",
+  "type": "module",
+  "dependencies": {
+    "lodash-es": "4.17.21"
+  },
+  "devDependencies": {
+    "@types/lodash-es": "4.17.12",
+    "bun-types": "1.1.38"
+  }
+}
