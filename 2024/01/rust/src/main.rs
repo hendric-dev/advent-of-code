@@ -19,7 +19,7 @@ fn main() {
   println!("[Part 1] 🤖 Beep, Boop... calculated a total distance of {total_distance}");
 
   let similarity_score = calculate_similarity_score(&first_list, &second_list);
-  println!("[Part 1] 🤖 Beep, Boop... calculated a similarity score of {similarity_score}");
+  println!("[Part 2] 🤖 Beep, Boop... calculated a similarity score of {similarity_score}");
 }
 
 fn calculate_similarity_score(first_list: &Vec<&i32>, second_list: &Vec<&i32>) -> i32 {
